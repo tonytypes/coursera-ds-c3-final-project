@@ -1,0 +1,12 @@
+### tidy_accelerometer_data.txt
+* 'dataset': Indicates whether the sensor recording is from the 'test' or 'train' experiment group
+* 'subject': An identifier of the subject who carried out the experiment (note that subject 1 in the 'test' group and subject 1 in the 'train' group and different people)
+* 'activity': Indicates the activity performed by the subject at the time of measurement
+* 'signal': Features selected from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ
+* 'estimate': Indicates which estimate from these signals is provides ('mean value' or 'standard deviation')
+* 'direction': Used to denote 3-axial signals in the X, Y and Z directions (note: some are NA)
+* 'value': The value for the signal
+
+### tidy_accelerometer_data_averages.txt
+* the first six variables above
+* 'averagevalue': The mean for the values when grouped by all other variables
